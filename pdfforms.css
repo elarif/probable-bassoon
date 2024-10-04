@@ -1,0 +1,33 @@
+
+#the-canvas {
+	border: 0px solid black;
+	direction: ltr;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+#the-grid {
+	border: 0px solid grey;
+	direction: ltr;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	cursor: crosshair;
+}
+
+#the-overlay {
+	border: 0px solid black;
+	direction: ltr;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	cursor: crosshair;
+}
+
+
+#canvasWrapper{
+	position:relative;
+}
